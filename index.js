@@ -3,4 +3,5 @@ let data=fetch("https://raw.githubusercontent.com/shravan98491/Dataset/refs/head
   .then(data => console.log(data))
   .catch(err => console.error(err));
 
-console.log(data);
+
+  console.log(data);
