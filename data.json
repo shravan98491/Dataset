@@ -1,8 +1,8 @@
 {
-  "accountNumber": "SBIN000123456",
+  "accountNumber": "RBLAN000123456",
   "accountHolder": "Shravan Kumar",
   "accountType": "Savings",
-  "ifscCode": "SBIN0005678",
+  "ifscCode": "RBLAN0005678",
   "branch": "Hyderabad Main Branch",
   "balance": 85400.75,
   "currency": "INR",
