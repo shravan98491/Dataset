@@ -1,15 +1,111 @@
 {
-  "accountNumber": "RBLAN000123456",
+  "bankName": "Saudi National Bank (SNB)",
+  "country": "United Arab Emirates",
+  "accountNumber": "AE070260001234567890123",
   "accountHolder": "Shravan Kumar",
   "accountType": "Savings",
-  "ifscCode": "RBLAN0005678",
-  "branch": "Hyderabad Main Branch",
-  "balance": 85400.75,
-  "currency": "INR",
-  "phone": "917893840509",
+  "swiftCode": "NCBKAEAD",
+  "branch": "Dubai Main Branch",
+  "balance": 41875.50,
+  "currency": "AED",
+  "phone": "971509384050",
   "email": "shravan.kumar@example.com",
   "status": "Active",
-  "lastTransactionDate": "2025-09-10T14:25:00Z",
-  "accountSummary": "totalDeposits: 250000.00\ntotalWithdrawals: 164599.25\nmonthlyAverageBalance: 82000.50\nlastMonthCredits: 45000.00\nlastMonthDebits: 38000.00\ninterestEarnedYTD: 3250.75"
-  
+  "lastTransactionDate": "2025-12-10T14:25:00Z",
+
+  "accountSummary": {
+    "totalDeposits": 125000.00,
+    "totalWithdrawals": 83124.50,
+    "monthlyAverageBalance": 40500.75,
+    "lastMonthCredits": 22000.00,
+    "lastMonthDebits": 18500.00,
+    "profitEarnedYTD": 1650.25
+  },
+
+  "creditCardStatement": {
+    "cardIssuer": "SNB UAE",
+    "cardNumberMasked": "XXXX-XXXX-XXXX-8842",
+    "cardType": "Visa Infinite",
+    "billingCycle": "December 2025",
+    "creditLimit": 100000.00,
+    "availableCredit": 71250.00,
+    "totalOutstanding": 28750.00,
+    "minimumAmountDue": 1437.50,
+    "paymentDueDate": "2025-12-25",
+
+    "transactions": [
+      {
+        "date": "2025-12-02",
+        "description": "Amazon.ae",
+        "category": "Online Shopping",
+        "amount": 6249.00,
+        "rewardPointsEarned": 125
+      },
+      {
+        "date": "2025-12-05",
+        "description": "Talabat Food Order",
+        "category": "Food & Dining",
+        "amount": 432.75,
+        "rewardPointsEarned": 9
+      },
+      {
+        "date": "2025-12-07",
+        "description": "ENOC Fuel Station",
+        "category": "Fuel",
+        "amount": 980.00,
+        "rewardPointsEarned": 20
+      },
+      {
+        "date": "2025-12-09",
+        "description": "VOX Cinemas",
+        "category": "Entertainment",
+        "amount": 210.00,
+        "rewardPointsEarned": 4
+      },
+      {
+        "date": "2025-12-10",
+        "description": "Sharaf DG Electronics",
+        "category": "Electronics",
+        "amount": 19900.75,
+        "convertedToEMI": true,
+        "rewardPointsEarned": 398
+      }
+    ],
+
+    "emiDetails": [
+      {
+        "merchant": "Sharaf DG Electronics",
+        "originalAmount": 19900.75,
+        "emiTenureMonths": 12,
+        "monthlyEmiAmount": 1785.25,
+        "interestRate": 13.5,
+        "emiStartDate": "2026-01-01",
+        "emiEndDate": "2026-12-01",
+        "remainingEmis": 12
+      }
+    ],
+
+    "rewardsSummary": {
+      "totalRewardPointsEarnedThisMonth": 556,
+      "rewardPointsBalance": 6120,
+      "rewardConversionRate": "1 point = AED 0.20",
+      "redeemableValue": 1224.00
+    },
+
+    "cashbackSummary": {
+      "cashbackEarnedThisMonth": 420.00,
+      "cashbackCategories": [
+        {
+          "category": "Online Shopping",
+          "cashbackAmount": 250.00
+        },
+        {
+          "category": "Entertainment",
+          "cashbackAmount": 170.00
+        }
+      ],
+      "cashbackCreditDate": "2026-01-05"
+    }
+  }
 }
+
